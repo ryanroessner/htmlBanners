@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendering Quality Comparison</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .image-container {
+            width: 100%;
+            max-width: 1518px;
+            background: #fff;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery">
+
+        <div class="image-container">
+            <h2>Recreated for ROAM - Andorinha SunDeck</h2>
+            <img src="roam/Andorinha_SunDeck-ROAM.png" alt="Andorinha SunDeck - ROAM">
+        </div>
+
+        <div class="image-container">
+            <h2>(Processed from file on Sitecore) - Andorinha_SunDeck</h2>
+            <img src="flagship-resized/Andorinha_SunDeck.png" alt="Andorinha SunDeck">
+        </div>
+
+        <div class="image-container">
+            <h2>Recreated for ROAM - Andorinha DiamondDeck</h2>
+            <img src="roam/Andorinha_DiamondDeck-ROAM.png" alt="Andorinha DiamondDeck - ROAM">
+        </div>
+
+        <div class="image-container">
+            <h2>(Processed from file on Sitecore) - Andorinha DiamondDeck</h2>
+            <img src="flagship-resized/Andorinha_DiamondDeck.png" alt="Andorinha DiamondDeck">
+        </div>
+
+
+        
+
+         <div class="image-container">
+            <h2>Recreated for ROAM - Andorinha RubyDeck</h2>
+            <img src="roam/Andorinha_RubyDeck-ROAM.png" alt="Andorinha RubyDeck - ROAM">
+        </div>
+
+        <div class="image-container">
+            <h2>(Processed from file on Sitecore) - Andorinha RubyDeck</h2>
+            <img src="flagship-resized/Andorinha_RubyDeck.png" alt="Andorinha RubyDeck">
+        </div>
+
+    </div>
+
+</body>
+</html>
